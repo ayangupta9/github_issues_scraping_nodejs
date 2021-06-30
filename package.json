@@ -1,0 +1,25 @@
+{
+  "name": "github_issues_scraping_project",
+  "version": "1.0.0",
+  "description": "Scraps latest issues from top repos of 3 random topics from Github and articulates them into a JSON file",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Github",
+    "Scraping",
+    "Issues",
+    "Repositories",
+    "Cheerio",
+    "Request",
+    "Topics"
+  ],
+  "author": "Ayan Gupta",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "node-fetch": "^2.6.1",
+    "request": "^2.88.2"
+  }
+}
